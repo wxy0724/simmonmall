@@ -1,2 +1,2 @@
-# gulimail
+# gulimall
 商城
