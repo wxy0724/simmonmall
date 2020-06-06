@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.simmon.mall</groupId>
+	<groupId>com.simmoon.mall</groupId>
 	<artifactId>simmoon-mall</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>simmoon-mall</name>
@@ -16,7 +16,11 @@
 		<module>mall-ware</module>
 		<module>mall-product</module>
 		<module>mall-order</module>
-	</modules>
+		<module>mall-common</module>
+		<module>mall-gateway</module>
+		<module>renren-fast</module>
+		<module>renren-generator</module>
+    </modules>
 
 
 

@@ -8,10 +8,10 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.simmon.mail</groupId>
-	<artifactId>mail-coupon</artifactId>
+	<groupId>com.simmoon.mall</groupId>
+	<artifactId>mall-order</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mail-coupon</name>
+	<name>mall-order</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -20,6 +20,11 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.simmoon.mall</groupId>
+			<artifactId>mall-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
