@@ -1,13 +1,13 @@
-package com.simmon.mail.product;
+package com.simmoon.mall.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MailProductApplication {
+public class MallGatewayApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MailProductApplication.class, args);
+		SpringApplication.run(MallGatewayApplication.class, args);
 	}
 
 }
